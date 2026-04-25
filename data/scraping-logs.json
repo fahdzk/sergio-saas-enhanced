@@ -1,0 +1,110 @@
+[
+  {
+    "id": "2010489f-07fe-411d-a4c1-5bcb9ee79555",
+    "url": "https://propwire.com",
+    "type": "Lead",
+    "status": "failed",
+    "source": "basic",
+    "message": "The page could not be inspected.",
+    "createdAt": "2026-04-16T15:31:45.995Z"
+  },
+  {
+    "id": "40efcafe-d2e5-4a61-9fa1-0774ebe67518",
+    "url": "https://propwire.com",
+    "type": "Property",
+    "status": "failed",
+    "source": "basic",
+    "message": "The page could not be inspected.",
+    "createdAt": "2026-04-16T15:31:41.076Z"
+  },
+  {
+    "id": "c2d7c37f-36e8-4786-a169-16fab5cae786",
+    "url": "https://propwire.com/search?atclid=A4Cs3ckihtBS8G3igDgR9WcItPMOg5&filters=%7B%22locations%22%3A%5B%7B%22searchType%22%3A%22N%22%2C%22county%22%3A%22Salt%20Lake%22%2C%22state%22%3A%22UT%22%2C%22title%22%3A%22Salt%20Lake%2C%20UT%22%7D%5D%7D",
+    "type": "Property",
+    "status": "failed",
+    "source": "basic",
+    "message": "The page could not be inspected.",
+    "createdAt": "2026-04-16T15:31:32.046Z"
+  },
+  {
+    "id": "5bfe03ba-1ff8-4b4b-8040-1d757a083a0a",
+    "url": "https://app.ispeedtolead.com/homepage?page=1",
+    "type": "Property",
+    "status": "previewed",
+    "source": "crawl4ai",
+    "message": "TWENTY_API_URL or TWENTY_API_KEY is not configured. Preview/logging completed.",
+    "createdAt": "2026-04-16T15:23:56.067Z"
+  },
+  {
+    "id": "978030ab-1be1-4e0b-b1bb-c4a68e2ab62c",
+    "url": "https://app.ispeedtolead.com/homepage?page=1",
+    "type": "Property",
+    "status": "previewed",
+    "source": "crawl4ai",
+    "message": "Preview extracted with Crawl4AI.",
+    "createdAt": "2026-04-16T15:23:50.152Z"
+  },
+  {
+    "id": "b883f61c-a707-49b3-9f8c-9a40292f9b22",
+    "url": "https://app.ispeedtolead.com/homepage?page=1",
+    "type": "Lead",
+    "status": "previewed",
+    "source": "crawl4ai",
+    "message": "Preview extracted with Crawl4AI.",
+    "createdAt": "2026-04-16T15:23:35.010Z"
+  },
+  {
+    "id": "e3ff6660-402b-408b-94b1-b734a04b5e3a",
+    "url": "https://www.scrapethissite.com/pages/forms/",
+    "type": "Lead",
+    "status": "previewed",
+    "source": "crawl4ai",
+    "message": "TWENTY_API_URL or TWENTY_API_KEY is not configured. Preview/logging completed.",
+    "createdAt": "2026-04-16T15:19:28.507Z"
+  },
+  {
+    "id": "9e6d58d0-25c0-4bd3-9618-a947463aa5a8",
+    "url": "https://www.scrapethissite.com/pages/forms/",
+    "type": "Lead",
+    "status": "previewed",
+    "source": "crawl4ai",
+    "message": "Preview extracted with Crawl4AI.",
+    "createdAt": "2026-04-16T08:27:27.278Z"
+  },
+  {
+    "id": "b85a731e-42a2-478b-9d62-eb9cc9e9e36b",
+    "url": "https://www.scrapethissite.com/pages/forms/",
+    "type": "Property",
+    "status": "previewed",
+    "source": "crawl4ai",
+    "message": "Preview extracted with Crawl4AI.",
+    "createdAt": "2026-04-16T08:27:23.732Z"
+  },
+  {
+    "id": "7337ef2d-efb7-4e3c-947d-dc378deaa540",
+    "url": "https://www.scrapethissite.com/pages/forms/",
+    "type": "Property",
+    "status": "previewed",
+    "source": "crawl4ai",
+    "message": "Preview extracted with Crawl4AI.",
+    "createdAt": "2026-04-16T08:27:03.657Z"
+  },
+  {
+    "id": "febd48c7-0159-41cc-b88d-8ee0edd04586",
+    "url": "https://www.geopostcodes.com/landing/global-zip-code-database/?utm_term=international%20zip%20code%20database&utm_campaign=Search%2B-%2BCore%2B-%2BUSA%2B%26%2BCA%2B-%2BPostal%2BDatabase%2B-%2BBroad%2B-%2BtCPA&utm_source=adwords&utm_medium=ppc&hsa_acc=5156833444&hsa_cam=23431860403&hsa_grp=192190801858&hsa_ad=791925595417&hsa_src=g&hsa_tgt=kwd-2461552753358&hsa_kw=international%20zip%20code%20database&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=23431860403&gbraid=0AAAAABjSptVYUHXL5DR5bQZFKSFCJF0cZ&gclid=Cj0KCQjwkYLPBhC3ARIsAIyHi3THVAc29f20raPt1KL2I2kmKicr2xkqRPmbMgaFo07AjCylJJpJ1O8aAineEALw_wcB",
+    "type": "Property",
+    "status": "previewed",
+    "source": "basic",
+    "message": "Preview extracted with basic extractor.",
+    "createdAt": "2026-04-16T08:25:32.143Z"
+  },
+  {
+    "id": "5f1b6ed4-123a-4dab-b114-caef726e563d",
+    "url": "https://webscraper.io/test-sites/e-commerce/allinone",
+    "type": "Property",
+    "status": "failed",
+    "source": "none",
+    "message": "robots.txt does not allow this page to be inspected.",
+    "createdAt": "2026-04-16T08:24:21.709Z"
+  }
+]
