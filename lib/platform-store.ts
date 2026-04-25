@@ -11,7 +11,9 @@ type PlatformStore = {
   campaigns: CampaignTemplate[];
 };
 
-const storePath = path.join(process.cwd(), "data", "platform-store.json");
+const runtimeDataDir =
+  process.env.VERCEL === "1" ? "/tmp/sergio-saas-data" : path.join(process.cwd(), "data");
+const storePath = path.join(runtimeDataDir, "platform-store.json");
 
 const defaultStore: PlatformStore = {
   listings: defaultListings,

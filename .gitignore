@@ -20,3 +20,4 @@ react-loadable-manifest.json
 routes-manifest.json
 trace
 *.tsbuildinfo
+.vercel

@@ -11,7 +11,8 @@ export type ImportLog = {
   createdAt: string;
 };
 
-const dataDir = path.join(process.cwd(), "data");
+const dataDir =
+  process.env.VERCEL === "1" ? "/tmp/sergio-saas-data" : path.join(process.cwd(), "data");
 const logPath = path.join(dataDir, "scraping-logs.json");
 
 export async function appendImportLog(log: ImportLog) {
