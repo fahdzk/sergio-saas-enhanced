@@ -1,0 +1,22 @@
+.next/
+node_modules/
+dist/
+build/
+coverage/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Generated artifacts accidentally committed before
+types/
+cache/
+static/
+app-build-manifest.json
+build-manifest.json
+prerender-manifest.json
+react-loadable-manifest.json
+routes-manifest.json
+trace
+*.tsbuildinfo
