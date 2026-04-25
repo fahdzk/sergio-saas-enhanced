@@ -1262,29 +1262,35 @@ export function RealEstateApp() {
                     <div className="flex gap-3">
                       <AlertCircle className="h-5 w-5 flex-shrink-0" />
                       <div>
-                        <p className="font-semibold">Walker & Dunlop Integration</p>
+                        <p className="font-semibold">Walker & Dunlop Suite Workspace</p>
                         <p className="mt-1">
-                          To use the full WDSuite platform, visit{" "}
-                          <a
-                            href="https://suite.walkerdunlop.com/dashboard"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="font-semibold underline"
-                          >
-                            suite.walkerdunlop.com
-                          </a>
-                          . This tab allows you to save analysis notes and track property research. Use the credentials provided to access demographic data, neighborhood ratings, and market insights.
+                          Use the embedded workspace below for quick access. If the provider blocks embedding, open the full suite in a new tab.
+                          For security, login is handled by your browser/account session (no password is stored in this app).
                         </p>
                       </div>
                     </div>
                   </div>
 
-                  <button className="inline-flex items-center gap-2 rounded-full bg-[#c88b2a] px-5 py-3 text-sm font-semibold text-white">
-                    <ExternalLink className="h-4 w-4" />
-                    <a href="https://suite.walkerdunlop.com/dashboard" target="_blank" rel="noopener noreferrer">
-                      Open WDSuite Dashboard
-                    </a>
-                  </button>
+                  <div className="rounded-[24px] border border-border bg-white p-3">
+                    <div className="mb-3 flex items-center justify-between gap-3">
+                      <p className="text-sm font-semibold text-primary">WDSuite Live Window</p>
+                      <button
+                        className="inline-flex items-center gap-2 rounded-full bg-[#c88b2a] px-4 py-2 text-xs font-semibold text-white"
+                        onClick={() => window.open("https://suite.walkerdunlop.com/dashboard", "_blank", "noopener,noreferrer")}
+                      >
+                        <ExternalLink className="h-4 w-4" />
+                        Open in New Tab
+                      </button>
+                    </div>
+                    <iframe
+                      title="Walker and Dunlop Suite"
+                      src="https://suite.walkerdunlop.com/dashboard"
+                      className="h-[560px] w-full rounded-[18px] border border-border bg-white"
+                    />
+                    <p className="mt-3 text-xs text-muted-foreground">
+                      If this frame appears blank or shows a blocked message, the external site is preventing embedding. Use "Open in New Tab".
+                    </p>
+                  </div>
                 </div>
               </Panel>
             )}
