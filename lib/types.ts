@@ -8,6 +8,7 @@ export type NavigationTab =
   | "vendors"
   | "scraping"
   | "property-stats"
+  | "previously-sold"
   | "map"
   | "email"
   | "settings";
