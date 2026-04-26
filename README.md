@@ -1,129 +1,157 @@
-<h1 align="center">🏡 Real Estate Agent Command Center</h1>
+<h1 align="center" style="font-size:48px; font-weight:700;">
+🏡 Real Estate Agent Command Center
+</h1>
 
-<p align="center">
-  A modern, fully customizable command center for real estate agents.<br/>
-  Manage listings, clients, and performance — all from one interface.
+<p align="center" style="font-size:18px; color:#6b7280;">
+A modern command center for real estate agents — manage listings, clients, and performance in one place.
 </p>
 
 <p align="center">
   <a href="https://sergio-saas-enhanced-brq9tzwf8-fahdzks-projects.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Open%20App-0A66C2?style=for-the-badge&logo=vercel&logoColor=white"/>
+    <img src="https://img.shields.io/badge/🚀 Live Demo-Open App-black?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-111827?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Customizable-100%25-F59E0B?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🧩 Open Source-Yes-111827?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/⚙️ Fully Customizable-True-F59E0B?style=for-the-badge"/>
+</p>
+
+---
+
+<p align="center" style="font-size:16px;">
+👉 <a href="https://sergio-saas-enhanced-brq9tzwf8-fahdzks-projects.vercel.app/"><b>Explore the Live Product</b></a>
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://sergio-saas-enhanced-brq9tzwf8-fahdzks-projects.vercel.app/"><b>Explore the live product →</b></a>
+  <img src="https://dawn-waterfall-389.linkyhost.com" alt="Command Center Preview" width="95%" style="border-radius:12px;" />
 </p>
 
 ---
 
-<p align="center">
-  <img src="assets/dashboard.png" alt="Command Center Preview" width="92%" />
+<h2 style="font-size:28px;">🚀 Overview</h2>
+
+<p style="font-size:16px; line-height:1.6;">
+This isn’t just another CRM.<br/><br/>
+
+It’s a <b>command center</b> — a unified workspace where real estate agents can run their entire business without switching tools.<br/><br/>
+
+📊 Listings, 👥 clients, 💰 transactions, and 📈 performance — all in one interface.
 </p>
 
 ---
 
-## Overview
+<h2 style="font-size:28px;">🧩 Product Surface</h2>
 
-This is not a traditional CRM.
+<h3 style="font-size:20px;">📊 Dashboard</h3>
 
-It’s a **command center** — a structured, real-time workspace where real estate agents can operate their entire business from a single interface.
-
-Instead of switching between tools, everything lives here:
-listings, clients, transactions, and performance.
-
----
-
-## Product Surface
-
-### Dashboard
-A live operational view of your business:
-- Active listings & client profiles  
-- Sales and rental inventory  
-- Revenue, transactions, and pipeline  
-- Goal tracking with progress indicators  
+<ul>
+<li>Active listings & client overview</li>
+<li>Sales & rental inventory</li>
+<li>Revenue, transactions, and pipeline</li>
+<li>Goal tracking with progress bars</li>
+</ul>
 
 ---
 
-### Listings & Inventory
-- For Sale / For Rent management  
-- Structured property data  
-- Inventory value tracking  
+<h3 style="font-size:20px;">🏘️ Listings & Inventory</h3>
+
+<ul>
+<li>For Sale / For Rent management</li>
+<li>Structured property data</li>
+<li>Inventory value tracking</li>
+</ul>
 
 ---
 
-### Clients
-Segmented management for:
-- Buyers  
-- Renters  
-- Investors  
-- Vendors  
+<h3 style="font-size:20px;">👥 Clients</h3>
+
+<ul>
+<li>Buyers</li>
+<li>Renters</li>
+<li>Investors</li>
+<li>Vendors</li>
+</ul>
+
+<p style="font-size:14px; color:#6b7280;">
+Manage different client roles seamlessly in one system.
+</p>
 
 ---
 
-### Market Insights
-- Listings grouped by city  
-- Coverage visibility  
-- Local performance breakdown  
+<h3 style="font-size:20px;">📍 Market Insights</h3>
+
+<ul>
+<li>Listings grouped by city</li>
+<li>Market coverage visibility</li>
+<li>Local performance tracking</li>
+</ul>
 
 ---
 
-### Tools
-- Property stats  
-- Previously sold listings  
-- Map view  
-- Data scraping workflows  
+<h3 style="font-size:20px;">🧰 Tools</h3>
+
+<ul>
+<li>Property stats</li>
+<li>Previously sold listings</li>
+<li>Map view</li>
+<li>Scraping workflows</li>
+</ul>
 
 ---
 
-## Why This Exists
+<h2 style="font-size:28px;">💡 Why This Exists</h2>
 
-Most real estate tools are fragmented.
+<p style="font-size:16px; line-height:1.6;">
+Most real estate tools are fragmented and inefficient.<br/><br/>
 
-This project explores a different model:
-a **single command surface** where everything is visible, actionable, and connected.
+This project simplifies everything into:
+</p>
 
----
-
-## Customization
-
-Built to be extended.
-
-You can:
-- Add or remove modules  
-- Redesign the interface  
-- Plug in APIs (MLS, maps, AI)  
-- Turn it into a production SaaS  
+<p align="center" style="font-size:20px; font-weight:600;">
+✨ One command center. Total visibility. Full control.
+</p>
 
 ---
 
-## Use Cases
+<h2 style="font-size:28px;">⚙️ Customization</h2>
 
-- Independent agents  
-- Brokerages  
-- Prop-tech startups  
-- Internal dashboards / CRM replacements  
-
----
-
-## Open Source
-
-This project is open source and free to use.
-
-Fork it, modify it, and build your own system on top of it.
+<ul>
+<li>🧩 Add or remove modules</li>
+<li>🎨 Redesign the UI</li>
+<li>🔌 Integrate APIs (MLS, maps, AI)</li>
+<li>🚀 Turn it into a SaaS product</li>
+</ul>
 
 ---
 
-## Live Demo
+<h2 style="font-size:28px;">🧪 Use Cases</h2>
 
+<ul>
+<li>🏡 Real estate agents</li>
+<li>🏢 Brokerages</li>
+<li>🚀 Prop-tech startups</li>
+<li>🧰 Custom dashboards / CRMs</li>
+</ul>
+
+---
+
+<h2 style="font-size:28px;">🌍 Open Source</h2>
+
+<p style="font-size:16px;">
+Free to use, customize, and build on.<br/>
+Fork it, modify it, and make it your own.
+</p>
+
+---
+
+<h2 style="font-size:28px;">🔗 Live Demo</h2>
+
+<p style="font-size:16px;">
 https://sergio-saas-enhanced-brq9tzwf8-fahdzks-projects.vercel.app/
+</p>
 
 ---
 
-## License
+<h2 style="font-size:28px;">📄 License</h2>
 
-MIT
+<p style="font-size:16px;">MIT</p>
