@@ -1,110 +1,129 @@
-# Sergio's Listings
+<h1 align="center">🏡 Real Estate Agent Command Center</h1>
 
-Local-first SaaS workspace for Sergio's Utah real estate operation.
+<p align="center">
+  A modern, fully customizable command center for real estate agents.<br/>
+  Manage listings, clients, and performance — all from one interface.
+</p>
 
-## What is included
+<p align="center">
+  <a href="https://sergio-saas-enhanced-brq9tzwf8-fahdzks-projects.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Open%20App-0A66C2?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-111827?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Customizable-100%25-F59E0B?style=for-the-badge"/>
+</p>
 
-- Next.js App Router application
-- Dashboard, for-sale, for-rent, buyer, renter, map, email, and settings modules
-- Real CRUD API routes for listings and clients backed by Supabase/Postgres
-- Google Maps JavaScript API integration for live map rendering when a browser key is present
-- BillionMail send route wired to the documented send endpoint with `X-API-Key`
-- Settings page with Supabase seeding flow and integration readiness checks
-- Crawl4AI-ready scraper integration with a basic extractor fallback
-- Enterprise data import page at `/import` with preview, save-to-Twenty, and scraping history
+---
 
-## Environment
+<p align="center">
+  <a href="https://sergio-saas-enhanced-brq9tzwf8-fahdzks-projects.vercel.app/"><b>Explore the live product →</b></a>
+</p>
 
-Copy `.env.example` to `.env.local` and fill in values when you are ready to connect live services.
+---
 
-```bash
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
-NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=
-SUPABASE_SERVICE_ROLE_KEY=
-NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=
-BILLIONMAIL_API_URL=
-BILLIONMAIL_API_KEY=
-BILLIONMAIL_SEND_ENDPOINT="/api/batch_mail/api/send"
-RESEND_API_KEY=
-EMAIL_FROM="Sergio's RealEstate <hello@example.com>"
-CRAWL4AI_BASE_URL="http://localhost:11235"
-CRAWL4AI_API_TOKEN=
-```
+<p align="center">
+  <img src="assets/dashboard.png" alt="Command Center Preview" width="92%" />
+</p>
 
-## Crawl4AI integration
+---
 
-The CRM can call a local Crawl4AI Docker server for browser-based crawling and LLM-friendly Markdown extraction.
+## Overview
 
-```bash
-docker run -d ^
-  -p 11235:11235 ^
-  --name crawl4ai ^
-  --shm-size=3g ^
-  unclecode/crawl4ai:latest
-```
+This is not a traditional CRM.
 
-Once `CRAWL4AI_BASE_URL` is set, the `/api/scrape` endpoint sends permitted URLs to Crawl4AI first. If Crawl4AI is
-offline or not configured, the endpoint falls back to the built-in basic extractor.
+It’s a **command center** — a structured, real-time workspace where real estate agents can operate their entire business from a single interface.
 
-The CRM keeps guardrails in front of crawling:
+Instead of switching between tools, everything lives here:
+listings, clients, transactions, and performance.
 
-- Public or authorized pages only
-- robots.txt checked before any crawl request
-- Known restricted platforms blocked by hostname
-- No private databases, login walls, or bypassing access controls
+---
 
-## Twenty data import
+## Product Surface
 
-Run Twenty at `http://localhost:3005`, then run this companion app and open:
+### Dashboard
+A live operational view of your business:
+- Active listings & client profiles  
+- Sales and rental inventory  
+- Revenue, transactions, and pipeline  
+- Goal tracking with progress indicators  
 
-```text
-http://localhost:3000/import
-```
+---
 
-If the Next.js dev server chooses another port, use that port instead.
+### Listings & Inventory
+- For Sale / For Rent management  
+- Structured property data  
+- Inventory value tracking  
 
-To save reviewed records into Twenty, add these to `.env.local`:
+---
 
-```env
-TWENTY_API_URL=http://localhost:3005
-TWENTY_API_KEY=your_twenty_api_key
-```
+### Clients
+Segmented management for:
+- Buyers  
+- Renters  
+- Investors  
+- Vendors  
 
-The importer logs previews and save attempts locally in `data/scraping-logs.json`.
+---
 
-## Supabase schema
+### Market Insights
+- Listings grouped by city  
+- Coverage visibility  
+- Local performance breakdown  
 
-Run the SQL in:
+---
 
-```text
-supabase/sergios_listings_schema.sql
-```
+### Tools
+- Property stats  
+- Previously sold listings  
+- Map view  
+- Data scraping workflows  
 
-Then seed the starter records from the Settings tab inside the app.
+---
 
-## BillionMail integration
+## Why This Exists
 
-The send route posts to the BillionMail endpoint documented in the official email API guide:
+Most real estate tools are fragmented.
 
-- default endpoint: `/api/batch_mail/api/send`
-- auth header: `X-API-Key: ...`
+This project explores a different model:
+a **single command surface** where everything is visible, actionable, and connected.
 
-If your BillionMail instance uses a different path, set `BILLIONMAIL_SEND_ENDPOINT`.
+---
 
-## Run locally
+## Customization
 
-Double-click:
+Built to be extended.
 
-```text
-Run_Sergios_Listings_Local.bat
-```
+You can:
+- Add or remove modules  
+- Redesign the interface  
+- Plug in APIs (MLS, maps, AI)  
+- Turn it into a production SaaS  
 
-Or run manually:
+---
 
-```bash
-npm install
-npm run dev
-```
+## Use Cases
 
-Open `http://localhost:3000`.
+- Independent agents  
+- Brokerages  
+- Prop-tech startups  
+- Internal dashboards / CRM replacements  
+
+---
+
+## Open Source
+
+This project is open source and free to use.
+
+Fork it, modify it, and build your own system on top of it.
+
+---
+
+## Live Demo
+
+https://sergio-saas-enhanced-brq9tzwf8-fahdzks-projects.vercel.app/
+
+---
+
+## License
+
+MIT
